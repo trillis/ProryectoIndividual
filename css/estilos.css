@@ -1,0 +1,99 @@
+
+main
+{
+  background-image: url("/Imagenes/fondo.jpg");
+  background-size: contain;
+}
+
+h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 11;
+  text-align: center;
+  background-color: gold;
+  padding: 20px; 
+  border-radius: 30px;
+  vertical-align: top;
+  margin: 5px;
+  border-width: 10px;   
+}
+
+nav{
+  font-family: sans-serif;
+  /*display: flex;*/
+  /*justify-content: center;*/
+  /*background-color: chartreuse;*/
+  /*text-align: center;
+  padding: 20px;
+  border-radius: 30px;
+  margin: 10px;
+  font-size: 17px;  */
+}
+
+a:link
+{
+  text-decoration: none;
+}
+
+.imagenes{
+  width: 40% ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  box-shadow: 8px 10px 13px black;
+  border-radius: 30px;
+  text-align: center;
+}
+
+form{
+  text-align: center;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 40px;
+  background-color: rgb(172, 64, 64);
+}
+
+footer
+{
+  background-color: aqua;
+  background : gray;  
+}
+
+
+
+/*Incorporación de nuevos aspectos responsivos
+div.container{    
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;    
+}
+
+div.container > img{
+  width: 60%;
+  margin-bottom: 25px;
+  box-shadow: 8px 10px 13px black;
+  border-radius: 30px;
+}
+
+/*Inicidio media query
+@media(min-width : 600px)
+{
+  body{
+    background-color: aqua;
+  }
+  div.container > img{
+    width: 23%;
+    margin: 3px;
+  }
+}
+
+/*Toma nuevas configuraciones a partir de los 1024 px
+@media(min-width: 1024px)  {
+  body{
+      background-color: blue;
+  }
+  div.container > img{
+    width: 20%;
+    margin: 5px;
+  }
+}*/
