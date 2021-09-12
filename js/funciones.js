@@ -1,6 +1,7 @@
 alert ("Bienvenido!");
 
 //Declaración de variable.
+//Declaración de variable.
 let btnCambioColor = document.getElementById('btnazul');
 
 function cambioColor()
