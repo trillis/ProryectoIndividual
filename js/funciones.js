@@ -1,4 +1,4 @@
-alert ("Bienvenido!");
+//alert ("Bienvenido!");
 
 //Declaración de variable.
 //Declaración de variable.
@@ -16,3 +16,8 @@ function cambioColor()
 
     document.body.style.background=color;
 }
+
+//Función para probar datatable.
+$(document).ready( function () {
+    $('#myTable').DataTable();
+} );

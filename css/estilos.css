@@ -2,9 +2,9 @@
 main
 {
   background-image: url("/Imagenes/fondo.jpg");
-  background-size: contain;
+  background-size: auto;
 }
-
+/*
 h1{
   font-family: 'Courier New', Courier, monospace;
   font-size: 11;
@@ -16,6 +16,7 @@ h1{
   margin: 5px;
   border-width: 10px;   
 }
+*/
 
 nav{
   font-family: sans-serif;
@@ -45,6 +46,29 @@ a:link
   text-align: center;
 }
 
+#section .carousel-inner img{
+  max-height: 70vh; /*70% del alto de la pantalla*/
+  object-fit: cover;
+  /*filter: grayscale(20%); /*Decoloramiento de imagenes*/
+}
+
+#carousel 
+{
+  position: relative;  
+}
+
+#carousel .overlay
+{
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(0,0,0,0.5);
+  color: white;
+
+}
+
 form{
   text-align: center;
   padding: 10px;
@@ -53,12 +77,13 @@ form{
   background-color: rgb(172, 64, 64);
 }
 
-footer
-{
-  background-color: aqua;
-  background : gray;  
+#footer {
+  background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
 }
 
+#footer a {
+  color: white;
+}
 
 
 /*Incorporación de nuevos aspectos responsivos
