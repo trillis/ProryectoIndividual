@@ -1,28 +1,28 @@
+#header img {
+  width: 40px;
+  
+}
+#header 
+{
+  background-color: aqua;
+}
 
 main
 {
   background-image: url("/Imagenes/fondo.jpg");
-  background-size: auto;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
 }
-/*
-h1{
-  font-family: 'Courier New', Courier, monospace;
-  font-size: 11;
-  text-align: center;
-  background-color: gold;
-  padding: 20px; 
-  border-radius: 30px;
-  vertical-align: top;
-  margin: 5px;
-  border-width: 10px;   
-}
-*/
 
-nav{
+
+
+#nav{
   font-family: sans-serif;
+  color: aqua;
   /*display: flex;*/
   /*justify-content: center;*/
-  /*background-color: chartreuse;*/
+  background-color: rgb(125, 129, 122);
   /*text-align: center;
   padding: 20px;
   border-radius: 30px;
@@ -36,7 +36,17 @@ a:link
 }
 
 .imagenes{
-  width: 40% ;
+  width: 20% ;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  box-shadow: 8px 10px 13px black;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.imgProyectos{
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -69,22 +79,29 @@ a:link
 
 }
 
-form{
-  text-align: center;
-  padding: 10px;
-  border-radius: 30px;
-  margin: 40px;
-  background-color: rgb(172, 64, 64);
-}
+ .txt
+{
+   width: 300px;
+   border: 10px;
+   /* text-align: center;
+   transform: translate(-50%,-50%);
+   width: 30%; */
+} 
+
+
 
 #footer {
   background: linear-gradient(90deg,#1c3643,#273b47 25%,#1e5372);
 }
 
 #footer a {
-  color: white;
+  color:white
 }
 
+#footer img
+{
+  width: 5%;
+}
 
 /*Incorporación de nuevos aspectos responsivos
 div.container{    
@@ -122,3 +139,6 @@ div.container > img{
     margin: 5px;
   }
 }*/
+
+
+
